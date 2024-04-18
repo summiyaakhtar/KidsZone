@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+*{
+        margin: 0;
+        padding: 0;
+        font-size:medium;
+      
+    }
+    .navbar{
+      font-size: 16px;
+      background-color: darkblue;
+      color: black;
+       
+    }
+    .navbar-light .navbar-nav .nav-link{
+       margin-left: 10px;
+
+    }
+    .navbar-nav{
+      margin-left: 200px;
+    }
+        .section{
+            height: 1500px;
+        }
+        .sc{
+            font-size: 70px;
+            text-align: center;
+        }
+
+        .footer{
+    background-color: darkblue;
+    color: white;
+    margin-top: 100px;
+    height: 400px;
+  }
+  .q{
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .logo{
+    font-size: 20px;
+
+  }.kid{
+    margin-left: 90px;
+  }
+ 
+
+
+
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity=></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+   
+</head>
+<body style="overflow-x: hidden; background-image: url(bg/bg6.jpg);">
+
+    
+  <nav class="navbar navbar-expand-lg navbar-light  text-light py-3 fixed-top" >
+    <div class="container">
+    
+      
+      <tr>
+        <td colspan="3"><img src="pictures/kk2.webp" height="70" alt=""></td>
+      </tr>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav navbar-right mr-5 ml-auto">
+         
+          <li class="nav-item">
+            <a class="nav-link  text-light py-3  mr-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light py-3  mr-5" href="ABC..html">ABC.s</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="Counting.html">Counting</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="tables.html">Tables</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="rhymes.html">Rhymes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="colors.html">colors</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="animals.html">Animals</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="Vegetables.html">Vegetables</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="Days Name.html">Days Name</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="Months Name.html">Months Name</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link  text-light  py-3 mr-5 " href="addition.html">Sums</a>
+          </li>
+
+    
+
+        </div>
+    </div>
+  </nav>
+  
+    <header style="margin-top: 100px;">
+      <img src="images/llll.png!sw800" height="500" width="100%">
+    </header>
+
+    <br><br><br><br>
+  <div class="box text-center display-4">
+
+      <input type="text" placeholder="Enter your Number 1" id="text1">
+      <br>
+      <input type="text" placeholder="Enter your Number 2" id="text2">
+
+      <h1 id="demo">0</h1>
+      
+      <button onclick="add()">Add</button>
+      <button onclick="subtract()">Subtract</button>
+      <br>
+      <button onclick="multiply()">Multiply</button>
+      <button onclick="divide()">Divide</button>
+
+
+     <script>
+       function add()
+       {
+         var n1 = parseInt(document.getElementById('text1').value);
+         var n2 = parseInt(document.getElementById('text2').value);
+         var add = n1 + n2;
+         document.getElementById('demo').innerHTML = add;
+       }
+
+       function subtract()
+       {
+         var n3 = parseInt(document.getElementById('text1').value);
+         var n4 = parseInt(document.getElementById('text2').value);
+         var subtract = n3 - n4;
+         document.getElementById('demo').innerHTML = subtract;
+       }
+
+       function multiply()
+       {
+         var n5 = parseInt(document.getElementById('text1').value);
+         var n6 = parseInt(document.getElementById('text2').value);
+         var Multiply = n5 * n6;
+         document.getElementById('demo').innerHTML = Multiply;
+       }
+
+       function divide()
+       {
+         var n7 = parseInt(document.getElementById('text1').value);
+         var n8 = parseInt(document.getElementById('text2').value);
+         var Divide = n7 / n8;
+         document.getElementById('demo').innerHTML = Divide;
+       }
+     </script>
+  </div>
+  <div class="kid"><img src="pictures/add3.jpg" alt=""></div>
+
+<br><br><br><br>
+
+<footer class="footer">
+  <div class="container f1">
+   <div class="row">
+     <div class="col-lg-5">
+       <p class="q">A "Kids Zone" website is an online platform specifically designed for children to learn educational content. </p>
+     </div>
+     <div class="col-lg-2">
+       <p class="q">Home <br> ABC.s <br> Counting <br> Tables <br> Rhymes <br>Sums </p>
+     </div>
+     <div class="col-lg-3">
+       <p class="q">Colors <br> Animals <br> Vegetables <br> Days name <br> Months Name</p>
+     </div>
+     <div class="col-lg-2">
+       <p class="q logo">
+         <i class="fa-brands fa-facebook-f"></i>
+         <br><i class="fa-brands fa-twitter"></i>
+         <br><i class="fa-brands fa-skype"></i> 
+         <br><i class="fa-brands fa-instagram"></i>
+         <br><i class="fa-brands fa-whatsapp"></i>
+       </p>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-lg-6 mt-5">
+         <p class="text-center">© Copyright 2025 </p>
+     </div>
+     <div class="col-lg-6 mt-5">
+         <h4 style="font-weight: 400;">SUBSCRIBE FOR UPDATES</h4>
+     </div>
+ </div>
+
+  </div>
+ </footer>
+
+
+   
+</body>
+</html>  
